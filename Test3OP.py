@@ -1,9 +1,3 @@
-import time
-begin = time.time()
-print("Duration")
-finish = time.time()
-print(finish-begin)
-
 def sort(MyNations20):
     for z in range(len(MyNations20)-1,0,-1):
         for m in range(z):
